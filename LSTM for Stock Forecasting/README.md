@@ -1,1 +1,2 @@
-
+# Project Details:
+  This mini-project experiments with using an LSTM model for stock Forecasting. The aim is to use the stock prices forecasted for the succeeding month in conjunction with historical stock data to optimize a portfolio of holdings to maximize its expected returns. The Optimization of the stock holdings was based on Markowitz stock theory where each investor's objective was to maximize the ration of return to risk, and thus holding a set of stocks with varying risks and returns yielded better expected returns overall.
