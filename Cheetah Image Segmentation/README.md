@@ -1,7 +1,8 @@
 # Project Details:
   In this project I semantically segment an image of a cheetah into two classes: Background/Foreground by learning the underlying densities of the two classes using the expectation maximization Algorithm. The training dataset is a set of vectors that have discrete cosine transformation applied to them and their elements zig-zagged. I experimented on different amounts of latent variables for the densities of the classes when applying EM which yielded varying results. The optimal amount of components was found to be 8 for each class, and the classification with least error occurred when using 16 features only. 
 
-  [Classification Results C8F16](https://github.com/user-attachments/assets/c032292f-876d-4ee0-af89-bceacc1ad96e)
-*Figure 1: Classification results with 8 components and 16 features:*
+![Classification Results C8F16](https://github.com/user-attachments/assets/917b2f12-b58d-4af1-91d0-c2028f11ebbf)
+**Figure 1: Classification results with 8 components and 16 features:**
 
-Expectation maximization is an algorithm used to find the optimal parameters of a statistical model where the model contains hidden components to them.  
+# Explanation of Algorithm
+Expectation maximization is an algorithm used to find the optimal parameters of a statistical model where the model contains hidden components to them. in order to classify samples from densities that contain these components, the model has to learn the parameters of these components within each class density. This could be done through hard assignments, and the k-means algorithm would be a simplified version of that concept, but results obtained through that method are too greedy and better results can be obtained through assigning samples softly to each component of the distribution. That is what Expectation maximization does, it assigns samples a probability of belonging to each of the components in a distribution. After these assigments, the model updates its paramers to be used in the next cycle of soft assignments. This process continues until parameters converge to steady values and training is complete. 
