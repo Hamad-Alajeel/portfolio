@@ -3,8 +3,8 @@
 #### Technical Skills: Python, PyTorch, Julia, C, C++, SystemVerilog, Deep Learning, CNN's, Statistical Learning Algorithms
 
 ## Education							       		
-- M.S., Machine Learning & Data Science	| University of Calofirna, San Diego (ongoing)	 			        		
-- B.S., Electrical Engineering | University of Calofirna, San Diego (June 2024)
+- M.S., Machine Learning & Data Science	| University of California, San Diego (ongoing)	 			        		
+- B.S., Electrical Engineering | University of California, San Diego (June 2024)
 
 ## Work Experience
 **Research Intern at Jacobs School of Engineering (April 2024 – July 2024)**
