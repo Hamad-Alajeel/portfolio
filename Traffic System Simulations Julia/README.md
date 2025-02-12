@@ -1,6 +1,6 @@
 # Julia Implementation of Code:
 ---
-This file includes the Julia implementations for the mixed traffic simulations based on the papers from the SOC group at UCSD which provided a new framework for Connnected autonomous vehicle control based on convex optimization. They are Jupyter notebooks, but can be run on VS code as well. To run the code, you must first install Julia on your PC (you can use this link: https://julialang.org/downloads/). To be able to run the code on jupyter notebooks you will have to create a connection between Julia and the jupyter notebooks application by following these steps:
+This file includes the Julia implementations of the mixed traffic simulations which are experiments based on the papers from the SOC group at UCSD which provided a new framework for the control of Connected Autonomous vehicles in a traffic system based on formulating the problem as a convex optimization problem. They are Jupyter notebooks, but can be run on VS code as well. To run the code, you must first install Julia on your PC (you can use this link: https://julialang.org/downloads/). To be able to run the code on jupyter notebooks you will have to create a connection between Julia and the jupyter notebooks application by following these steps:
 
 1) Click on the Julia application to open the Julia command prompt
 2) Type in these commands:
