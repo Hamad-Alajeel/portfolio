@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at simplified_sha256.sv(114): always construct contains both blocking and non-blocking assignments File: C:/Users/hamad/Desktop/ECE111/Project_Files/simplified_sha256/simplified_sha256.sv Line: 114
