@@ -18,6 +18,7 @@
 -	Analyzed data on the learning performance of students when novel assessment methods were used in electrical engineering classes. Co-authored a paper which presented findings on students’ improvement in learning. 
 
 ## Projects:
+- Improved a Variational Autoencoder model’s ability to create novel movie recommendations for users of the Movielens-20M database by applying novel methods of controlling the KL-divergence term in its loss function in Tensorflow.
 -	Using Intel Quartus Prime, developed RTL model of a bitcoin hasher along with the accompanying SHA-256 model which implements the cryptographic hashing algorithm required to generate correct signatures to be used in the Bitcoin Blockchain (the model achieved the highest performance metrics in the class).
 -	Developed simulations in Julia which confirmed results in a research paper that showed that incorporating connected autonomous vehicles in a traffic system improved the performance of the traffic system.
 -	Performed Image Segmentation on a cheetah image by applying discrete cosine transform on features then using the expectation maximization algorithm to learn the optimal parameters of the gaussian densities representing the two classes of foreground/background.
