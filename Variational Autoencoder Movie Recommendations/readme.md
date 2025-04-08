@@ -45,7 +45,6 @@ The ablation study revealed that altering the model's architecture by increasing
 </div>
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/765701f9-8f50-4745-a95e-c5e60d477979">
+<img src="https://github.com/user-attachments/assets/88ef9989-d30a-40f6-9a52-fdfacda9022d">
 </div>
-
 
