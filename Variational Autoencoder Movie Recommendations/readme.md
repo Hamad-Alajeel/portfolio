@@ -11,13 +11,13 @@ $` \log \; p\bigl(x_u; \theta\bigr)
 
   In this loss function, the KL divergence term can be interpreted to be a regularization term which ensures that the posterior does not deviate from the prior by very much, thus preventing the model from overfitting to the data. This preserves the model's generative capabilities. However, for different tasks, different levels of generativity and fitting to datasets are required. Therefore, many researchers have introduced the $\beta$ hyperparameter to control how strongly the KL divergence term regularizes the posterior:
 
-  $` $$
+  $` 
 \mathcal{L}_{\beta}(x_u; \theta, \phi)
 \;=\;
 \mathbb{E}_{q_{\phi}(z_u \mid x_u)}
 \bigl[\log\; p_{\theta}(x_u \mid z_u)\bigr] - \beta \cdot 
 \mathrm{KL}\bigl(q_{\phi}(z_u \mid x_u)\,\|\,p(z_u)\bigr).
-  $$ `$
+ `$
 
 The traditional heuristic for controlling $\beta$ is to slowly anneal it to a value of 1 in order for the model to learn the latent state representations well before stabilizing the encoder stage's learning. In my paper, I experiment with two novel methods for controlling $\beta$. The first one inspired by NLP tasks cyclically anneals $\beta$. 
 
