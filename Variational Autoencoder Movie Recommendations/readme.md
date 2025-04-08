@@ -27,7 +27,9 @@ The traditional heuristic for controlling $\beta$ is to slowly anneal it to a va
 
 In NLP tasks, as $\beta$ is annealed to a value of 1, the VAE loses its ability to improve its learning of the latent space, and eventually ignores contextual information of previous tokens. Therefore, by cyclically annealing $\beta$,  the approximation of the posterior distribution is broken and it attempts to re-learn the hidden space using what it has learned in the previous cycle. In the task of movie recommendaitons though, contextual information is not used to generate novel movie recommendations, so experimenting with this approach was tentative. The more promising approach, however, was scaling the KL term in proportion to the amount of movies a user has interacted with. The expectation behind using this method was that anomalous users who did not have many movies they had positively interacted with would not have a disproportionate effect on the model's learning of the latent space:
 
-$` math \beta(x_u)=\gamma|x_u|=\gamma \sum_{i=1}^{N} x_{ui} `$
+<div align="center">
+$`\beta(x_u)=\gamma|x_u|=\gamma \sum_{i=1}^{N} x_{ui} `$
+</div>
 
 
 
