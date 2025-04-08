@@ -54,7 +54,7 @@ The ablation study revealed that altering the model's architecture by increasing
 <br>
 <div align="center">
 <img src="https://github.com/user-attachments/assets/0c5a6826-b2bf-4ca6-a3bb-166fa0e7f5ef">
-<figcaption>Training Plot of NDCG Value Per Epoch for Proportional Annealing</figcaption>
+<figcaption>Training Plot of NDCG Value Per Epoch for Cyclical Annealing</figcaption>
 </div>
 <br>
 <br>
@@ -65,6 +65,7 @@ The ablation study revealed that altering the model's architecture by increasing
 <br>
 <div align="center">
 <img src="https://github.com/user-attachments/assets/3a3c8999-a161-430e-89c0-18f905572c90">
+<figcaption>Training Plot of NDCG Value Per Epoch for Proportional Annealing</figcaption>
 </div>
 
 
