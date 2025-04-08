@@ -5,7 +5,7 @@
 $$ \log p\bigl(x_u; \theta\bigr)\nonumber
 &\;\ge\;\nonumber
 \mathbb{E}_{q_{\phi}(z_u \mid x_u)}
-\Bigl[\log p_{\theta}\bigl(x_u \mid z_u\bigr)\Bigr] \\
+\Bigl[\log p_{\theta}\bigl(x_u \mid z_u\bigr)\Bigr] 
 &\qquad-\;
 \mathrm{KL}\!\Bigl(q_{\phi}(z_u \mid x_u) \,\Bigl\|\, p(z_u)\Bigr) \;\equiv\;
 \mathcal{L}\bigl(x_u;\theta,\phi\bigr) $$
