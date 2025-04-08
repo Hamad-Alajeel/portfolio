@@ -36,19 +36,7 @@ $`\beta(x_u)=\gamma|x_u|=\gamma \sum_{i=1}^{N} x_{ui} `$
 
 The ablation study revealed that altering the model's architecture by increasing the amount of hidden layers, or the latent space size, or changing the activation function to relu, only lead to worse performance by the model. As expected, cyclical Annealing to a max level of $\beta=0.2$ did not lead to any improvement in model performance. However, the most promising results came from scaling the KL term in proportion to the amount of user interactions. This method resulted in an normalized discounted cumulative gain (NDCG) which was the best out of all other experiments, and almost equivalent to the original model with the traditional heurisitic. Moreover, its recall@50 value was higher than the original model, meaning it was more accurately able to reconstruct the original data sample, while also introducing novel recommendations. The results are provided below. First is a table of metrics obtained from the original model, and the succeeding two are plots and tables for both using the cyclical annealling method and scaling beta to user interaction rate. 
 
-$$\begin{table}[H]
-    \centering
-    \caption{Test results for the original model.}
-    \begin{tabular}{l c}
-        \hline
-        \textbf{Metric} & \textbf{Value} \\
-        \hline
-        Test NDCG@100 & 0.41827 \\
-        Test Recall@20 & 0.38831 \\
-        Test Recall@50 & 0.52439 \\
-        \hline
-    \end{tabular}
-    
-    \label{tab:test_results}
-\end{table}$$
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/320932af-085c-4437-bf99-19e10c2b5aa0">
+</div>
 
