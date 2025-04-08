@@ -19,6 +19,8 @@ $` \log \; p\bigl(x_u; \theta\bigr)
 \mathrm{KL}\bigl(q_{\phi}(z_u \mid x_u)\,\|\,p(z_u)\bigr).
   `$
 
+The traditional heuristic for controlling $\beta$ is to slowly anneal it to a value of 1 in order for the model to learn the latent state representations well before stabilizing the encoder stage's learning. In my paper, I experiment with two novel methods for controlling $\beta$. The first one inspired by NLP tasks cyclically anneals $\beta$. This method was inspired by the fact that in NLP tasks 
+
 
 
 
