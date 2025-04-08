@@ -19,7 +19,7 @@ $` \log \; p\bigl(x_u; \theta\bigr)
 \mathrm{KL}\bigl(q_{\phi}(z_u \mid x_u)\,\|\,p(z_u)\bigr).
  `$
 
-The traditional heuristic for controlling $\beta$ is to slowly anneal it to a value of 1 in order for the model to learn the latent state representations well before stabilizing the encoder stage's learning. In my paper, I experiment with two novel methods for controlling $\beta$. The first one inspired by NLP tasks cyclically anneals $\beta$. 
+The traditional heuristic for controlling $\beta$ is to slowly anneal it to a value of 1 in order for the model to learn the latent state representations well before stabilizing the encoder stage's learning. In my paper, I attempt to improve a variational autencoder used for movie recommendations, the mult-vae, by experimenting with two novel methods for controlling $\beta$. The first one inspired by NLP tasks cyclically anneals $\beta$. 
 
 <div align="center">
   <img src="https://github.com/Hamad-Alajeel/portfolio/blob/main/assets/beta%20annealing%20(1).png">
@@ -32,6 +32,7 @@ $$\beta(x_u)=\gamma|x_u|=\gamma \sum_{i=1}^{N} x_{ui} $$
 
   In addition to experimenting with these different methods for controlling $\beta$, I performed an ablation study on the model to understand the effects of chaging different aspects of the architecture, the hyperparameters of the model, or the training process.
 
+# Main Results of Experiment
 
 
 
