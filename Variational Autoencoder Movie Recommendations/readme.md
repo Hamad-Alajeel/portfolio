@@ -43,6 +43,7 @@ The ablation study revealed that altering the model's architecture by increasing
 <br>
 <div align="center">
 <img src="https://github.com/user-attachments/assets/4545c790-a8b1-47d0-a372-91d1937aa067">
+<figcaption>Training Plot of NDCG Value Per Epoch for Proportional Annealing</figcaption>
 </div>
 <br>
 <br>
