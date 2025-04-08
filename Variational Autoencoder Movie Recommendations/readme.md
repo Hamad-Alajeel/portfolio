@@ -15,7 +15,7 @@ $` \log \; p\bigl(x_u; \theta\bigr)
 \mathcal{L}_{\beta}(x_u; \theta, \phi)
 \;\equiv\;
 \mathbb{E}_{q_{\phi}(z_u \mid x_u)}
-\bigl[\log p_{\theta}(x_u \mid z_u)\bigr] - \beta \cdot 
+\bigl[\log\; p_{\theta}(x_u \mid z_u)\bigr] - \beta \cdot 
 \mathrm{KL}\bigl(q_{\phi}(z_u \mid x_u)\,\|\,p(z_u)\bigr).
   `$
 
