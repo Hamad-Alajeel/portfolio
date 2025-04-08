@@ -28,7 +28,7 @@ The traditional heuristic for controlling $\beta$ is to slowly anneal it to a va
 In NLP tasks, as $\beta$ is annealed to a value of 1, the VAE loses its ability to improve its learning of the latent space, and eventually ignores contextual information of previous tokens. Therefore, by cyclically annealing $\beta$,  the approximation of the posterior distribution is broken and it attempts to re-learn the hidden space using what it has learned in the previous cycle. In the task of movie recommendaitons though, contextual information is not used to generate novel movie recommendations, so experimenting with this approach was tentative. The more promising approach, however, was scaling the KL term in proportion to the amount of movies a user has interacted with. The expectation behind using this method was that anomalous users who did not have many movies they had positively interacted with would not have a disproportionate effect on the model's learning of the latent space:
 
 
-$$\beta(x_u)=\gamma|x_u|=\gamma \sum_{i=1}^{N} x_{ui} $$
+$`\beta(x_u)=\gamma|x_u|=\gamma \sum_{i=1}^{N} x_{ui} `$
 
   In addition to experimenting with these different methods for controlling $\beta$, I performed an ablation study on the model to understand the effects of chaging different aspects of the architecture, the hyperparameters of the model, or the training process.
 
@@ -36,4 +36,19 @@ $$\beta(x_u)=\gamma|x_u|=\gamma \sum_{i=1}^{N} x_{ui} $$
 
 The ablation study revealed that altering the model's architecture by increasing the amount of hidden layers, or the latent space size, or changing the activation function to relu, only lead to worse performance by the model. As expected, cyclical Annealing to a max level of $\beta=0.2$ did not lead to any improvement in model performance. However, the most promising results came from scaling the KL term in proportion to the amount of user interactions. This method resulted in an normalized discounted cumulative gain (NDCG) which was the best out of all other experiments, and almost equivalent to the original model with the traditional heurisitic. Moreover, its recall@50 value was higher than the original model, meaning it was more accurately able to reconstruct the original data sample, while also introducing novel recommendations. The results are provided below. First is a table of metrics obtained from the original model, and the succeeding two are plots and tables for both using the cyclical annealling method and scaling beta to user interaction rate. 
 
+$$\begin{table}[H]
+    \centering
+    \caption{Test results for the original model.}
+    \begin{tabular}{l c}
+        \hline
+        \textbf{Metric} & \textbf{Value} \\
+        \hline
+        Test NDCG@100 & 0.41827 \\
+        Test Recall@20 & 0.38831 \\
+        Test Recall@50 & 0.52439 \\
+        \hline
+    \end{tabular}
+    
+    \label{tab:test_results}
+\end{table}$$
 
