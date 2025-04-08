@@ -21,7 +21,9 @@ $` \log \; p\bigl(x_u; \theta\bigr)
 
 The traditional heuristic for controlling $\beta$ is to slowly anneal it to a value of 1 in order for the model to learn the latent state representations well before stabilizing the encoder stage's learning. In my paper, I experiment with two novel methods for controlling $\beta$. The first one inspired by NLP tasks cyclically anneals $\beta$. 
 
-![Alt text](https://github.com/Hamad-Alajeel/portfolio/blob/main/assets/beta%20annealing%20(1).png)
+<div align="center">
+  <img src="[https://i.imgur.com/8BgVXcY.png](https://github.com/Hamad-Alajeel/portfolio/blob/main/assets/beta%20annealing%20(1).png)">
+</div>
 
 In NLP tasks, as $\beta$ is annealed to a value of 1, the VAE loses its ability to improve its learning of the latent space, and eventually ignores contextual information of previous tokens. Therefore, by cyclically annealing $\beta$,  the approximation of the posterior distribution is broken and it attempts to re-learn the hidden space using what it has learned in the previous cycle. In the task of movie recommendaitons though, contextual information is not used to generate novel movie recommendations, so experimenting with this approach was tentative. The more promising approach, however, was scaling the KL term in proportion to the amount of movies a user has interacted with. The expectation behind using this method was that anomalous users who did not have many movies they had positively interacted with would not have a disproportionate effect on the model's learning of the latent space.
 
