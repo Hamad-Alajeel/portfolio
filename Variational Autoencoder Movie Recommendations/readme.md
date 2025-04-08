@@ -32,7 +32,7 @@ $$\beta(x_u)=\gamma|x_u|=\gamma \sum_{i=1}^{N} x_{ui} $$
 
   In addition to experimenting with these different methods for controlling $\beta$, I performed an ablation study on the model to understand the effects of chaging different aspects of the architecture, the hyperparameters of the model, or the training process.
 
-# Main Results of Experiment
+# Main Results:
 
 
 
