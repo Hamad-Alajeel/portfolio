@@ -7,6 +7,13 @@
 - B.S., Electrical Engineering | University of California, San Diego (June 2024)
 
 ## Work Experience
+
+**AI Automation Intern at Revscale Technologies Inc. (June 2025 – August 2025)** 	
+-	Designed and automated AI-driven workflows using n8n, integrating webhooks, forms, cron triggers, and LLM nodes to streamline business processes and generate structured data autonomously.
+-	Developed and deployed inbound/outbound voice agents with VAPI and n8n tools, enabling automated scheduling through Google Calendar integration, with enhancements that intelligently suggested alternative meeting times to improve customer experience.
+-	Built scalable error-handling and reporting systems by consolidating workflow logs into structured Excel/JSON outputs, processing them with Python for key insights, and delivering daily Slack summaries that reduced troubleshooting time across teams.
+-	Engineered data pipelines for lead management and customer intelligence, including Zapier-Pinecone integrations for vectorized client responses with deduplication, automated LinkedIn lead prospecting workflows, and weekly campaign performance reports that saved hours of manual work.
+
 **Research Intern at Jacobs School of Engineering (April 2024 – July 2024)**
 -	Working with Professor Yang Zheng, programmed large- and small-scale simulations in Julia to experiment with different control strategies for connected autonomous vehicles in a traffic system which included human drivers. 
 -	The program simulations formulated the convex optimization problems which generated control strategies for the connected autonomous vehicles presented in research papers and solved them using optimization software.
