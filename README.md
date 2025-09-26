@@ -1,6 +1,6 @@
 # Grad Student (Machine Learning & Data Science)
 
-#### Technical Skills: Python, PyTorch, Tensorflow, Julia, C, C++, SystemVerilog, Deep Learning, CNN's, Discriminant Learning Algorithms, Statistical Learning Algorithms
+#### Technical Skills: Python, PyTorch, Tensorflow, Julia, C, C++, SystemVerilog, Deep Learning, CNN's, Discriminant Learning Algorithms, Statistical Learning Algorithms, n8n, Zapier
 
 ## Education							       		
 - M.S., Machine Learning & Data Science	| University of California, San Diego (ongoing)	 			        		
