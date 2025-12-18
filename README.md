@@ -25,6 +25,7 @@
 -	Analyzed data on the learning performance of students when novel assessment methods were used in electrical engineering classes. Co-authored a paper which presented findings on students’ improvement in learning. 
 
 ## Projects:
+-	Using Verilog, designed 3 NPU’s (weight stationary, 2-lane weight stationary, and output stationary) based on the 2D systolic array. Using PyTorch, trained a quantization aware VGGNet16 on CIFAR10 and applied sparsity enhancing techniques such as pruning and L1 weight regularization. Used data (weights, input maps and output maps) from one layer of the VGGNet16 to verify the correctness of the functionality of my NPU designs with Verilog test benches.
 - Improved a Variational Autoencoder model’s ability to create novel movie recommendations for users of the Movielens-20M database by applying novel methods of controlling the KL-divergence term in its loss function in Tensorflow.
 -	Using Intel Quartus Prime, developed RTL model of a bitcoin hasher along with the accompanying SHA-256 model which implements the cryptographic hashing algorithm required to generate correct signatures to be used in the Bitcoin Blockchain (the model achieved the highest performance metrics in the class).
 -	Developed simulations in Julia which confirmed results in a research paper that showed that incorporating connected autonomous vehicles in a traffic system improved the performance of the traffic system.
