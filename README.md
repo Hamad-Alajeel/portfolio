@@ -1,7 +1,13 @@
 # Grad Student (Machine Learning & Data Science)
 
-#### Technical Skills: Python, PyTorch, Tensorflow, Julia, C, C++, SystemVerilog, Deep Learning, CNN's, Discriminant Learning Algorithms, Statistical Learning Algorithms, n8n, Zapier
-
+#### ML & AI: Statistical Machine Learning, Deep Learning, Data Science, Computer Vision, NLP, Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation, Agentic AI, AI Automation
+#### Programming Languages, & ML Frameworks: Python, SQL, C, C++, MATLAB, Verilog, System Verilog, PyTorch, TensorFlow, Scikit-learn
+#### Tools, Data, & MLOps: Data Engineering, ETL, Data Pre-processing, Data Visualization, Version Control (Git), CI/CD, MLOps, Azure ML, AI Automation, Object-oriented Programming, CRMs
+#### Certifications:
+•
+Foundations of AI and Machine Learning — Coursera [Certificate]
+•
+Microsoft Certified: Azure Data Scientist Associate — In Progress
 ## Education							       		
 - M.S., Machine Learning & Data Science	| University of California, San Diego (ongoing)	 			        		
 - B.S., Electrical Engineering | University of California, San Diego (June 2024)
